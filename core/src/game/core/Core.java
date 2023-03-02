@@ -1,31 +1,31 @@
 package game.core;
 
-import com.badlogic.gdx.ApplicationAdapter;
-import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.utils.ScreenUtils;
+import com.badlogic.gdx.*;
+import com.badlogic.gdx.utils.*;
+import game.screens.*;
 
-public class Core extends ApplicationAdapter {
-	SpriteBatch batch;
-	Texture img;
-	
-	@Override
-	public void create () {
-		batch = new SpriteBatch();
-		img = new Texture("badlogic.jpg");
+//
+// Ядро игры.
+// Тут реализованы разные полезные функции.
+// Этот класс - Первое, что исполняется при запуске игры.
+//
+
+public class Core extends Game {
+	@Override public void create () {
+		// Настройка окна:
+		Gdx.graphics.setTitle(Config.WindowTitle + " • " + Config.Version);    // Заголовок окна.
+		Gdx.graphics.setResizable(Config.WindowResiz);                         // Масштабируемость окна.
+		Gdx.graphics.setForegroundFPS(Config.FPS);                             // Установить FPS.
+		Gdx.graphics.setVSync(Config.VSync);                                   // Вертикальная синхронизация.
+
+		setScreen(new GameScreen());    // Переключиться на другой скрин.
 	}
 
-	@Override
-	public void render () {
-		ScreenUtils.clear(1, 0, 0, 1);
-		batch.begin();
-		batch.draw(img, 0, 0);
-		batch.end();
+	@Override public void render () {
+		ScreenUtils.clear(0, 0, 0, 1);
 	}
 	
-	@Override
-	public void dispose () {
-		batch.dispose();
-		img.dispose();
+	@Override public void dispose () {
+		//
 	}
 }
