@@ -36,7 +36,7 @@
 ![](https://user-images.githubusercontent.com/103067811/222500816-ef34d587-89eb-432e-a9c2-c41dc3eeb565.png)
 
 #### 8 - Основное
-Основной класс: ```The Surval/core/src/game/core/Core.java```
+Основной класс: ```The Surval/core/src/game/core/Core.java```</br>
 Папка ресурсов: ```The Surval/core/assets```
 
 ### По вопросам писать [сюда](https://t.me/kukovdev)
