@@ -35,3 +35,4 @@
 Путь: The Surval/desktop/build/libs/desktop.jar</br>
 ![](https://user-images.githubusercontent.com/103067811/222500816-ef34d587-89eb-432e-a9c2-c41dc3eeb565.png)
 
+### По вопросам писать [сюда](https://t.me/kukovdev)
