@@ -1,8 +1,8 @@
 package game.screens;
 
-import com.badlogic.gdx.Screen;
-import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.utils.ScreenUtils;
+import com.badlogic.gdx.*;
+import com.badlogic.gdx.graphics.*;
+import com.badlogic.gdx.utils.*;
 
 //
 // Игровой экран.
