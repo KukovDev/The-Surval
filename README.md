@@ -32,7 +32,11 @@
 ![](https://user-images.githubusercontent.com/103067811/222500661-a2f0059c-76a0-4acc-9b2e-c4279d1dd765.gif)
 
 #### 7 - Где находится сборка игры
-Путь: The Surval/desktop/build/libs/desktop.jar</br>
+Путь: ```The Surval/desktop/build/libs/desktop.jar```</br>
 ![](https://user-images.githubusercontent.com/103067811/222500816-ef34d587-89eb-432e-a9c2-c41dc3eeb565.png)
+
+#### 8 - Основное
+Основной класс: ```The Surval/core/src/game/core/Core.java```
+Папка ресурсов: ```The Surval/core/assets```
 
 ### По вопросам писать [сюда](https://t.me/kukovdev)
